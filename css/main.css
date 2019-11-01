@@ -1,0 +1,235 @@
+body{
+	background-color: #0f0e0e;
+}
+
+.center{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.navbar{
+	height: 100px;
+	background-color: #0f0e0e;
+	padding: 10px;
+}
+
+.header img{
+	float: left;
+}
+
+.navlist ul{
+	list-style: none;
+	display: block;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navlist ul li{
+	float: left;
+	padding-top: 35px;
+}
+
+.navlist ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.navlist ul li a:hover{
+	color: #d19999;
+}
+
+.collection{
+	width: 368px;
+	color: white;
+}
+
+.collection .rectangle{
+	height: 10px;
+	background-color: white;
+}
+
+.bigcont1{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.cont1{
+	width: 900px;
+	background-color: #000000;
+	color: white;
+	overflow: auto;
+}
+
+.cont1 .explanation{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.cont1 .explanation .number1{
+	width: 200px;
+	font-size: 100px;
+	float: left;
+	color: #e8c1c1;
+}
+
+.cont1 .explanation .text1{
+	width: 400px;
+	float: right;
+}
+
+.cont1 .explanation .text1 p{
+	text-align: right;
+}
+
+.cont1 .explanation .text1 .rectangle{
+	height: 10px;
+	background-color: white;
+}
+
+.cont1 .explanation .text1 .rectangle .smaller{
+	height: 10px;
+	background-color: #d19999;
+	width: 75%;
+	margin-left: 25%;
+}
+
+.cont2{
+	width: 900px;
+	background-color: #000000;
+	margin-left: 300px;
+}
+
+.cont2 .images1{
+	width: 740px;
+	margin: 0 auto;
+}
+
+.cont2 .images1 img{
+	margin-left: 40px;
+}
+
+.cont3{
+	width: 900px;
+	background-color: #000000;
+	min-height: 200px;
+	color: white;
+	overflow: auto;
+}
+
+
+.cont3 .explanation{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.cont3 .explanation .number2{
+	width: 200px;
+	font-size: 100px;
+	float: left;
+	color: #e8c1c1;
+}
+
+.cont3 .explanation .text2{
+	width: 400px;
+	float: right;
+}
+
+.cont3 .explanation .text2 p{
+	text-align: right;
+}
+
+.cont3 .explanation .text2 .rectangle{
+	height: 10px;
+	background-color: white;
+}
+
+.cont3 .explanation .text2 .rectangle .smaller{
+	height: 10px;
+	background-color: #b186b5;
+	width: 75%;
+	margin-left: 25%;
+}
+
+.cont4{
+	width: 900px;
+	background-color: #000000;
+	margin-left: 300px;
+}
+
+.cont4 .images2{
+	width: 660px;
+	margin: 0 auto;
+}
+
+.cont4 .images2 img{
+	margin-left: 20px;
+}
+.contactme{
+	background-color: black;
+	color:white;
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+
+.contactme .contactinfo .contactwriting{
+	width: 450px;
+	float: left;
+}
+
+.contactme .form{
+	width: 450px;
+	float:right;
+}
+
+.contactme .form form{
+	width:440px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contactme .form ul{
+	list-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+.contactme .form label{
+	display:block;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.contactme .form input+label{
+	display:inline;
+}
+
+.contactme .form input{
+	width:440px;
+	height:40px;
+	background-color: #191717;
+	border: 0px;
+}
+
+.contactme .form input[name="Email"]{
+	height:150px;
+}
+
+.contactme .form input[type="submit"] {
+	width: 185px;
+	height: 40px;
+	margin-top: 40px;
+	background-color: #0f0e0e;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.footer{
+	background-color: #191717;
+	height: 50px;
+}
